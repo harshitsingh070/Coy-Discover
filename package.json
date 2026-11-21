@@ -1,0 +1,41 @@
+{
+  "name": "coy-discover",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Coy SDE Intern Assignment - Discover tab with swipe-based matching",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:reset": "node scripts/reset-db.mjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "13.2.0",
+    "framer-motion": "11.18.2",
+    "next": "15.5.29",
+    "react": "19.2.9",
+    "react-dom": "19.2.9"
+  },
+  "devDependencies": {
+    "@testing-library/react": "16.3.3",
+    "@types/better-sqlite3": "7.6.13",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.9",
+    "@types/react-dom": "19.2.4",
+    "autoprefixer": "10.4.27",
+    "eslint": "8.57.1",
+    "eslint-config-next": "15.5.29",
+    "jsdom": "31.0.1",
+    "postcss": "8.5.33",
+    "tailwindcss": "3.4.19",
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Profile photo placeholder">
+  <defs>
+    <linearGradient id="ph-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EDE9FE"/>
+      <stop offset="1" stop-color="#DDD6FE"/>
+    </linearGradient>
+    <linearGradient id="ph-figure" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ph-bg)"/>
+  <circle cx="200" cy="154" r="58" fill="url(#ph-figure)"/>
+  <path d="M84 400c0-72 52-122 116-122s116 50 116 122Z" fill="url(#ph-figure)"/>
+  <circle cx="200" cy="200" r="176" fill="none" stroke="#C4B5FD" stroke-width="2" stroke-dasharray="6 10" opacity="0.7"/>
+</svg>
