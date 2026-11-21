@@ -248,5 +248,3 @@ Then open Discover and swipe right on Aisha (p01) to trigger a match.
 - No pagination; 30 profiles are returned in one feed request.
 - External placeholder photos depend on `i.pravatar.cc`; a local fallback is used if an image fails.
 - The demo is intended to run locally or on a persistent Node host.
-#   C o y - D i s c o v e r  
- 
